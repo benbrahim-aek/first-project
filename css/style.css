@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+*{
+    padding: opx;
+    margin: 0px;
+    font-family: 'Cairo', sans-serif;
+
+}
+body{
+    background-color: #eee;
+}
+ nav ul{
+    background-color: brown;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li{
+    display: inline-block;
+    padding-left: 10px;
+   
+
+}
+
+ul li:hover{
+    background-color: aqua; 
+
+}
+ 
+ ul li a{
+    color: rgb(57, 207, 207);
+    text-decoration: none;
+
+ }
+ .main-img{
+    background-image: url(../images/road-to-mont-saint-michel-at-sunset-normandy-france.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+ }
+
+.container{
+    width: 80%; 
+   margin: auto;
+   text-align: center;
+   margin: 20px auto;
+   
+}
+.features{
+    
+    display: flex;
+
+    
+}
+.features .feature{
+    margin:20px;
+    text-align: center;
+    width: 30%;
+    padding:15px ;
+    height: 215px;
+    background-color: white; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+.features .feature:hover{
+    transform: translateX(3px);
+    box-shadow: 3px 3px 10px rgb(81, 81, 136);
+    transition: 1s;
+    background-color: rgb(223, 218, 218);
+
+
+}
+.feature i{
+    font-size: 30px;
+    background-color: red;
+    border-radius: 100%;
+    padding: 15px;
+    color: white;
+}
+.feature h3{
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+.content p{
+    margin-bottom: 15px;
+}
+.contact-form{
+    width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    padding:30px;
+    height: 400px;
+}
+.input-form{
+    width: 600px;
+    height: 30px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+.input-form textarea{
+    margin-bottom: 50px;
+}
+button{
+    background-color: rgb(216, 118, 118);
+    color: white;
+   height: 50px;
+   margin: 150px;
+   border-radius: 4px solid white;
+   cursor: pointer; 
+margin: 0px auto;
+}
+.inner-footer a i{
+    margin: 10px 80px ;
+    font-size: 50px;
+}
